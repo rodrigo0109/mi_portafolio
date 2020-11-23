@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bienvenido a mi Portafolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="Header">
+        <section class="Header__bg">
+            <div class="menu" id="menu">
+                <input type="checkbox" id="btn_menu">
+                <label for="btn_menu" class="lbl_menu">
+                    <span id="spn1"></span>
+                    <span id="spn2"></span>
+                    <span id="spn3"></span>
+                </label><br><br>
+                <div class="hide" id="hide">
+                    <a href="#skills" id="skil"><i class="fas fa-head-side-virus"><span>.....</span></i>Conocimientos</a>
+                    <a href="#projects" id="proj"><i class="fas fa-tasks"></i><span>.....</span>Proyectos</a>
+                    <a href="#contact" id="cont"><i class="far fa-envelope"><span>.....</span></i>Contacto</a>
+                </div>
+            </div>
+            <nav class="Header__nav Header__nav--modifier" id="nav">
+                <a href="#about" class="Header__nav-link">Sobre mí</a>
+                <a href="#skills" class="Header__nav-link">Conocimientos</a>
+                <a href="#projects" class="Header__nav-link">Proyectos</a>
+                <a href="#contact" class="Header__nav-link Header__nav-link--modifier">Contacto</a>
+            </nav>
+            <section class="Header__hero">
+                <div class="container__hero">
+                    <h1 class="Hero__title">Rodrigo Pérez</h1>
+                    <h1 class="Hero__title">Desarrollador Front-end</h1>
+                    <a href="download/file.pdf" class="btn__cv" id="btn_cv">Descargar CV</a>
+                    <div class="Hero__social">
+                        <a href="https://github.com/rodrigo0109?tab=repositories" class="Hero__icon">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rodrigo-perez-54073314b/" class="Hero__icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/rodriperez_93/?hl=es-la" class="Hero__icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/rodri.perez.9/" class="Hero__icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="Hero__mail">
+                        <a href="">
+                            <i class="far fa-envelope"></i>
+                            rodrigoperez0109@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </header>
+
+    <main>
+        <section id="about" class="About">
+            <div class="container__about">
+                <img src="img/profiler.png" alt="" class="About__img">
+                <!-- <h1 class="About__title">¿Quién soy?</h1> -->
+                <p class="About__description"><span>Mi nombre es Rodrigo Pérez, soy de Buenos Aires, Argentina.</span><br>
+                    Me encuentro en constante formación, mejorando mis capacidades. Soy un apasionado de la programación, el desarrollo y diseño web, con ganas de aprender y superar nuevos desafíos.
+                    Realicé cursos en EducacionIT, de los cuales se pueden ver los certificados debajo.
+                    
+                </p>
+            </div>
+            <span class="Hat"><i class="fas fa-graduation-cap"></i></span>
+            <h2 class="Study_title">Estudios</h2>
+            <div class="container__about-study" id="study">
+                 <!-- <h2 class="Study_title">Estudios</h2> -->
+                <div class="Study-bg">
+                    <a href="#image1" class="Study__certificate">
+                        <img src="img/certificado.png" alt="">
+                    </a>
+                </div>
+                <div class="Study-bg">
+                    <a href="#image2" class="Study__certificate">
+                        <img src="img/certificado.png" alt="">
+                    </a>
+                </div>
+                <div class="Study-bg">
+                    <a href="#image3" class="Study__certificate">
+                        <img src="img/certificado.png" alt="">
+                    </a>
+                </div>
+                <div class="Study-bg">
+                    <a href="#image4" class="Study__certificate">
+                        <img src="img/certificado.png" alt="">
+                    </a>
+                </div>
+               
+            </div>
+            <a href="certificates.html" class="btn__certificate">Ver certificados</a>
+            
+            <article class="light-box" id="image1">
+                <a href="#image4" class="next"><i class="fas fa-chevron-circle-left"></i></a>
+                <img src="img/certificado.png" alt="">
+                <a href="#image2" class="next"><i class="fas fa-chevron-circle-right"></i></a>
+                <a href="#study" class="close"><i class="fas fa-times"></i></a>
+            </article>
+            <article class="light-box" id="image2">
+                <a href="#image1" class="next"><i class="fas fa-chevron-circle-left"></i></a>
+                <img src="img/certificado.png" alt="">
+                <a href="#image3" class="next"><i class="fas fa-chevron-circle-right"></i></a>
+                <a href="#study" class="close"><i class="fas fa-times"></i></a>
+            </article>
+            <article class="light-box" id="image3">
+                <a href="#image2" class="next"><i class="fas fa-chevron-circle-left"></i></a>
+                <img src="img/certificado.png" alt="">
+                <a href="#image4" class="next"><i class="fas fa-chevron-circle-right"></i></a>
+                <a href="#study" class="close"><i class="fas fa-times"></i></a>
+            </article>
+            <article class="light-box" id="image4">
+                <a href="#image3" class="next"><i class="fas fa-chevron-circle-left"></i></a>
+                <img src="img/certificado.png" alt="">
+                <a href="#image1" class="next"><i class="fas fa-chevron-circle-right"></i></a>
+                <a href="#study" class="close"><i class="fas fa-times"></i></a>
+            </article>
+        </section>
+        <section id="skills" class="Skills">
+            <h1 class="Skills__title"><span><i class="fas fa-cogs"></i></span>Conocimientos</h1>
+            <div class="container__skills">
+                <div class="Skills__wrapper">
+                    <img src="img/html.png" alt="" class="Skills__wrapper-img">
+                    <h2 class="Skills__wrapper-title">HTML</h2>
+                    <p class="Skills__wrapper-text">Avanzado</p>
+                </div>
+                <div class="Skills__wrapper">
+                    <img src="img/css.png" alt="" class="Skills__wrapper-img">
+                    <h2 class="Skills__wrapper-title">CSS</h2>
+                    <p class="Skills__wrapper-text">Intermedio</p>
+                    <p class="Skills__wrapper-text">BEM, LESS, Flexbox, Grid, Bootstrap</p>
+                </div>
+                <div class="Skills__wrapper">
+                    <img src="img/js.png" alt="" class="Skills__wrapper-img">
+                    <h2 class="Skills__wrapper-title">JS</h2>
+                    <p class="Skills__wrapper-text">Intermedio</p>
+                    <p class="Skills__wrapper-text">Fetch, AJAX. Promise, Clases constructoras</p>
+                </div>
+                <div class="Skills__wrapper">
+                    <img src="img/react.png" alt="" class="Skills__wrapper-img">
+                    <h2 class="Skills__wrapper-title">ReactJS</h2>
+                    <p class="Skills__wrapper-text">Básico</p>
+                </div>
+                <div class="Skills__wrapper">
+                    <img src="img/node.png" alt="" class="Skills__wrapper-img">
+                    <h2 class="Skills__wrapper-title">NodeJS</h2>
+                    <p class="Skills__wrapper-text">Básico</p>
+                </div>
+            </div>
+        </section>
+        <section class="img__scroll">
+            <div class="container__img"></div>
+        </section>
+        <section class="Projects" id="projects">
+           
+            <div class="container__project-title">
+                <span class="project__icon"><i class="fas fa-tasks"></i></span>
+                <h1 class="Projects__title">Proyectos</h1>
+            </div>
+            <div class="container__projects">
+                <div class="container__projects-wrapper">
+                    <div class="Wrapper__img">
+                        <a>
+                            <img src="img/gestoria.png" alt="">
+                        </a>
+                    </div>
+                    <div class="Wrapper__text">
+                        <div class="icon__text">
+                            <img src="img/html.png" alt="">
+                            <img src="img/css.png" alt="">
+                            <img src="img/js.png" alt="">
+                        </div>
+                        <h3 class="wrapper__title">Gestoría</h3>
+                        
+                        <p class="wrapper__p">Página web sobre una gestoría-escribanía, el proyecto fue hecho con HTML5, CSS3 y Javascript Vanilla.
+                        </p>
+                        <a href="https://github.com/rodrigo0109/gestoria.git" class="git">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://gestorialopez.netlify.app" class="web" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="container__projects-wrapper container__projects-wrapper--modifier">
+                    <div class="Wrapper__text">
+                        <div class="icon__text">
+                            <img src="img/html.png" alt="">
+                            <img src="img/css.png" alt="">
+                            <img src="img/js.png" alt="">
+                        </div>
+                        <h3 class="wrapper__title">Servicio Técnico</h3>
+                        <p class="wrapper__p">Página web sobre un negocio de venta y reparación de celulares, el proyecto fue hecho con HTML5, CSS3 y Javascript Vanilla.</p>
+                        <a href="https://github.com/rodrigo0109/servicio_tecnico.git" class="git">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://cgserviciotecnico.netlify.app" class="web" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                    <div class="Wrapper__img">
+                        <a>
+                            <img src="img/servicio_tecnico.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="projects.html" class="btn__projects">Ver más</a>
+            <a href="projects.html" target="_blank" class="cta">
+                <span>Más proyectos</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+        </section>
+    </main>
+
+    <button class="button__up" id="btn_up">
+        <i class="fas fa-angle-up"></i>
+    </button>
+
+    <footer class="Footer" id="contact">
+        <section class="Footer__hero">
+            <div class="Footer__social">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44100.13551760134!2d-58.43027460128679!3d-34.76158308596776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd261abf8fb75%3A0xd3b4119f62723032!2sLomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1605128094110!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="maps"></iframe>
+                <div class="socialmedia">
+                    <p class="Rp">Rodrigo Pérez&copy;</p>
+                    <p class="Rp__mobile">RP&copy;</p>
+                    <a href="https://github.com/rodrigo0109?tab=repositories" class="social__icon">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rodrigo-perez-54073314b/" class="social__icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rodriperez_93/?hl=es-la" class="social__icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/rodri.perez.9/" class="social__icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="Footer__contact">
+                <div class="Footer__title"><h2>Contacto</h2></div>
+                <form action="" class="Form" id="form" netlify>
+                    <p class="warnings-off" id="warnings">Campo incorrecto, vuelva a intentarlo</p>
+                    <input type="text" placeholder="Nombre" class="Form__field" id="name" required>
+                    <input type="email" placeholder="E-mail" class="Form__field" id="email" required>
+                    <textarea name="" id="" cols="30" rows="10" class="message" id="message" required></textarea>
+                    <input type="submit" class="btn__send" value="ENVIAR">
+                    
+                </form>
+            </div>
+        </section>
+    </footer>
+    <script src='js/script.js'></script>
+</body>
+
+</html>
