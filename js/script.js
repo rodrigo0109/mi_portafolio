@@ -111,7 +111,7 @@ function ajax(url) {
 //      FORMULARIO
 //------------------------
 
-let input_n = document.getElementById('name')
+/* let input_n = document.getElementById('name')
 let input_e = document.getElementById('email')
 let warnings = document.getElementById('warnings')
 
@@ -146,3 +146,4 @@ form.addEventListener('submit', (e) => {
     }
     form.reset()
 })
+ */
