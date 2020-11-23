@@ -258,6 +258,7 @@ body{
 .About__img{
     width: 150px;
     height: auto;
+    border-radius: 50%;
     margin-bottom: 30px;
 }
 .About__description span{
