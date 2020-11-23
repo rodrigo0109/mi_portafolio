@@ -146,6 +146,9 @@
 }
 
 @media screen and (max-width:500px){
+    .Header{
+        position: fixed;
+    }
     .Main__projects{
         height: 1700px;
     }
