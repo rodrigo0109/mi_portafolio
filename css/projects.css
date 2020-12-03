@@ -150,14 +150,14 @@
         position: fixed;
     }
     .Main__projects{
-        height: 1700px;
+        height: 600px;
     }
     .Projects{
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        height: 1600px;
+        height: 600px;
     }
     .container__projects{
         width: 80%;
